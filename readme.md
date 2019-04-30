@@ -8,7 +8,7 @@ Pour acceder a la page de demonstration,
 - Créez ensuite le host local : 127.0.0.1 afro.local
 - Créez le vhost corresopndant :
 
-><VirtualHost *:80>
+<VirtualHost *:80>
 	ServerName afro.local
 	ServerAlias www.afro.local
 	  DocumentRoot "**afro path**/www"
@@ -17,6 +17,5 @@ Pour acceder a la page de demonstration,
 	    Require local
 	  </Directory>
 </VirtualHost>
->
 
 Vous pourrez alors accéder a la briève documentation de ce framework.
