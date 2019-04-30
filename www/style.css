@@ -1,0 +1,117 @@
+body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    line-height: 50px;
+    padding: 0px 20px 0px 50px;
+    box-sizing: border-box;
+    background-image: url('afro.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-repeat: no-repeat; 
+    z-index: 3;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 100%;
+    width: 200px;
+    margin: 0px;
+    background-color: #252526;
+    color: #f0f0f0;
+    padding: 50px 0px 0px 0px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+nav > ul{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+nav > ul > li{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0px;
+    border-bottom: solid 1px #37373d;
+    cursor: pointer;
+}
+nav > ul > li.active{
+    background-color: #37373d;
+}            
+#content{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 50px 0px 0px 200px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.wrapper{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.page{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.page > .title{
+    display: block;
+    padding: 8px 15px;
+    background-color: #383838;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+code{
+    display: block;
+    border-radius: 5px;
+    background-color: #252526;
+    padding: 20px;
+}
+code .comment{ color: #5e9949; }
+code .command{ color: #a586c0; }
+code .string{ color: #ce9178; }
+code .boolean{ color: #499cd6; }
+code .var{ color: #8ccdc4; }
+code .number{ color: #b5ad61; }
