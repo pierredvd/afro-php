@@ -84,8 +84,6 @@
             520 => 'Web server is returning an unknown error'
         );
         
-        
-        protected static $vendorDir         = '';
         protected static $viewDir           = '';
         protected static $cacheDir          = '';
         protected static $cacheEnable       = false;

@@ -244,7 +244,7 @@
         </style>
     </head>
     <body>
-        <span class="title">Spoon requirement</span>
+        <span class="title">Afro requirement</span>
         <span class="message">
             [TRACE]
         </span>
